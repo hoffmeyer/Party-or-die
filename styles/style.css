@@ -1,28 +1,28 @@
 @font-face {
     font-family: 'blackmedium';
-    src: url('blackhawk-webfont.eot');
-    src: url('blackhawk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('blackhawk-webfont.woff') format('woff'),
-         url('blackhawk-webfont.ttf') format('truetype'),
-         url('blackhawk-webfont.svg#blackmedium') format('svg');
+    src: url('../fonts/blackhawk-webfont.eot');
+    src: url('../fonts/blackhawk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blackhawk-webfont.woff') format('woff'),
+         url('../fonts/blackhawk-webfont.ttf') format('truetype'),
+         url('../fonts/blackhawk-webfont.svg#blackmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'wanted_m54regular';
-    src: url('wanted_m54-webfont.eot');
-    src: url('wanted_m54-webfont.eot?#iefix') format('embedded-opentype'),
-         url('wanted_m54-webfont.woff') format('woff'),
-         url('wanted_m54-webfont.ttf') format('truetype'),
-         url('wanted_m54-webfont.svg#wanted_m54regular') format('svg');
+    src: url('../fonts/wanted_m54-webfont.eot');
+    src: url('../fonts/wanted_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wanted_m54-webfont.woff') format('woff'),
+         url('../fonts/wanted_m54-webfont.ttf') format('truetype'),
+         url('../fonts/wanted_m54-webfont.svg#wanted_m54regular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-  background: #efe7cc url(aged_paper.jpeg) repeat top left;
+  background: #efe7cc url(../images/aged_paper.jpeg) repeat top left;
   color: #111;
   font-family: sans-serif, arial;
 }
@@ -84,7 +84,7 @@ body {
   position: absolute;
   width: 128px;
   height: 128px;
-  background: transparent url(gun2.png) no-repeat top left;
+  background: transparent url(../images/gun2.png) no-repeat top left;
   top: 30px;
 }
 
@@ -94,7 +94,7 @@ body {
 
 .gun2 {
   right: 35px;
-  background: transparent url(gun.png) no-repeat top left;
+  background: transparent url(../images/gun.png) no-repeat top left;
 }
 
 /* invitation */
@@ -102,7 +102,7 @@ body {
 /* bullet holes */
 
 .bullethole {
-  background: transparent url(bullethole.png) no-repeat top left;
+  background: transparent url(../images/bullethole.png) no-repeat top left;
   width: 91px;
   height: 91px;
   position: absolute;
@@ -116,7 +116,7 @@ body {
   position: absolute;
   width: 84px;
   height: 128px;
-  background: transparent url(cowboy_left.png) no-repeat top left;
+  background: transparent url(../images/cowboy_left.png) no-repeat top left;
   top: 30px;
 }
 
@@ -126,7 +126,7 @@ body {
 
 .cowboy_right {
   right: 130px;
-  background: transparent url(cowboy_right.png) no-repeat top left;
+  background: transparent url(../images/cowboy_right.png) no-repeat top left;
 }
 /* wishes end */
 
