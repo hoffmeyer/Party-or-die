@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'blackmedium';
+    src: url('blackhawk-webfont.eot');
+    src: url('blackhawk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackhawk-webfont.woff') format('woff'),
+         url('blackhawk-webfont.ttf') format('truetype'),
+         url('blackhawk-webfont.svg#blackmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'wanted_m54regular';
+    src: url('wanted_m54-webfont.eot');
+    src: url('wanted_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('wanted_m54-webfont.woff') format('woff'),
+         url('wanted_m54-webfont.ttf') format('truetype'),
+         url('wanted_m54-webfont.svg#wanted_m54regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background: #efe7cc url(aged_paper.jpeg) repeat top left;
+  color: #111;
+  font-family: sans-serif, arial;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+/* Wanted part */
+.wanted_poster {
+  margin-bottom: 50px;
+}
+.date {
+  margin-top: 30px;
+  font-family: 'blackmedium';
+  font-size: 3em;
+  text-align: center;
+}
+.wanted {
+  font-family: 'wanted_m54regular';
+  font-size: 10em;
+  text-align: center;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  margin-bottom: 20px;
+  padding: 50px 0 30px 0;
+}
+.party_or_die {
+  font-family: 'wanted_m54regular';
+  font-size: 6.5em;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin-bottom: 20px;
+}
+.party_or_die .or {
+  font-style: normal;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+.bandit_name {
+  font-family: 'blackmedium';
+  font-size: 5em;
+  text-align: center;
+}
+
+.thirty{
+  margin-top: 40px;
+  font-size: 12em;
+  font-family: 'blackmedium';
+  text-align: center;
+}
+
+/* Wanted part end */
+
+/* invitation */
+
+.gun {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background: transparent url(gun2.png) no-repeat top left;
+  top: 30px;
+}
+
+.gun1 {
+  left: 35px;
+}
+
+.gun2 {
+  right: 35px;
+  background: transparent url(gun.png) no-repeat top left;
+}
+
+/* invitation */
+
+/* bullet holes */
+
+.bullethole {
+  background: transparent url(bullethole.png) no-repeat top left;
+  width: 91px;
+  height: 91px;
+  position: absolute;
+}
+
+/* bullet holes end */
+
+/* wishes */
+
+.cowboy {
+  position: absolute;
+  width: 84px;
+  height: 128px;
+  background: transparent url(cowboy_left.png) no-repeat top left;
+  top: 30px;
+}
+
+.cowboy_left {
+  left: 130px;
+}
+
+.cowboy_right {
+  right: 130px;
+  background: transparent url(cowboy_right.png) no-repeat top left;
+}
+/* wishes end */
+
+/* Info box */
+
+.infobox{
+  position: relative;
+  border: 2px solid black;
+  background-color:rgba(255,255,255,0.5);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+}
+.infobox h2 {
+  font-family: 'wanted_m54regular';
+  text-align: center;
+  text-shadow: 5px 5px 10px #999;
+  font-size: 3em;
+}
+
+a {
+  color: #222;
+}
+
+/* info box end */
+
+/* slideshow */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 30px 0;
+  border: 5px solid #011;
+  }
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+/* slideshow end */
+.small {font-size: 0.5em;}
