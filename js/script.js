@@ -3,13 +3,10 @@ var delay = 8;
 var interval;
 $(document).ready(function(){
   load_clint();
+  $("body").click(function(){bullethole_counter = 0; $(".bullethole").remove();});
   fade_in_wanted_poster();
   init_info_boxes();
 });
-
-function loadBulletholes(){
-  $("body").click(function(){bullethole_counter = 0; $(".bullethole").remove();});
-}
 
 function drawBullethole(){
     var x = Math.floor(Math.random()*$(window).width()+1+45);
