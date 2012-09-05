@@ -22,6 +22,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background: #efe7cc url(../images/aged_paper.jpeg) repeat top left;
   color: #111;
   font-family: sans-serif, arial;
@@ -190,7 +192,6 @@ a {
 /* slideshow end */
 .small {font-size: 0.5em;}
 
-
 /* fade in */
 
 .fade_in {
@@ -198,3 +199,16 @@ a {
 }
 
 /* fade in end */
+
+/* the clint */
+
+.the_clint {
+  position: absolute;
+  top: 70px;
+  left: -128px;
+  width: 128px;
+  height: 248px;
+  background: transparent url(../images/eastwood.png) no-repeat top left;
+}
+
+/* the clint end */

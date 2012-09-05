@@ -3,6 +3,7 @@ var delay = 8;
 var interval;
 $(document).ready(function(){
   loadBulletholes();
+  load_clint();
   fade_in_wanted_poster();
   init_info_boxes();
 });
@@ -46,4 +47,8 @@ function init_info_boxes(){
       $(this).css('opacity',opacity_pct);
     });
   });
+}
+
+function load_clint(){  
+  $('.the_clint').delay(6000).animate({left:0},2000);
 }
