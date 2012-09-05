@@ -48,8 +48,7 @@ function load_clint(){
   setInterval(function(){
     var top = Math.random()*($(window).height()+1-128);
     $('.the_clint').css('top',top);
-    $('.the_clint').animate({left:0},750)
-    drawBullethole()
+    $('.the_clint').animate({left:0},750, drawBullethole());
     $('.the_clint').delay(500).animate({left:-128},750);
   }, 8000);
 }
