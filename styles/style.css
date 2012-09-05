@@ -203,7 +203,7 @@ a {
 /* the clint */
 
 .the_clint {
-  position: absolute;
+  position: fixed;
   top: 70px;
   left: -128px;
   width: 128px;
