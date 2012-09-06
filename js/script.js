@@ -9,8 +9,8 @@ $(document).ready(function(){
 });
 
 function drawBullethole(){
-    var x = Math.floor(Math.random()*$(window).width()+1+45);
-    var y = Math.floor(Math.random()*$(window).height()+$("body").scrollTop()+1);
+    var x = Math.floor(Math.random()*($(window).width()+1-91));
+    var y = Math.floor(Math.random()*($(window).height()+$("body").scrollTop()+1-91)));
     $("body").delay(750).append("<div class='bullethole' style='left: " + x + "px; top: " + y + "px;'><embed src='images/GunShot.mp3' hidden=true autostart=true loop=false></div>");
     bullethole_counter++;
 }
