@@ -190,7 +190,7 @@ a {
   border: 0;
   }
 /* slideshow end */
-.small {font-size: 0.5em;}
+.small {font-size: 0.5em; clear: both;}
 
 /* fade in */
 
@@ -212,3 +212,18 @@ a {
 }
 
 /* the clint end */
+
+/* contact options */
+.contact_options {
+}
+.contact_options li {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px 7px;
+}
+
+/* contact options end */
