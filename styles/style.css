@@ -227,3 +227,17 @@ a {
 }
 
 /* contact options end */
+
+/* rotation of images */
+
+@keyframes img_rotate
+{
+ from { transform: rotate(-35deg); } 
+ to { transform: rotate(35deg); } 
+}
+
+.rotate{
+  animation: img_rotate 2.5s 0s infinite alternate easein-out
+}
+
+/* rotation of images end */
