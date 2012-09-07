@@ -237,7 +237,7 @@ a {
 }
 
 .rotate{
-  animation: img_rotate 2.5s 0s infinite alternate easein-out
+  animation: img_rotate 2.5s 0s infinite alternate ease-in-out;
 }
 
 /* rotation of images end */
