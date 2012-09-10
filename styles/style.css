@@ -235,26 +235,26 @@ a {
 /* rotation of images end */
 
 /* wanted poster splash */
-@-webkit-keyframes splash{
-  0%{-webkit-transform:scale(0.1)}
-  50%{-webkit-transform:scale(1.1); -webkit-animation-timing-function:ease-in}
-  75%{-webkit-transform:scale(0.9); -webkit-animation-timing-function:ease-in-out}
-  100%{-webkit-transform:scale(1); -webkit-animation-timing-function:ease-in-out}
+@keyframes splash{
+  0%{transform:scale(0.1)}
+  50%{transform:scale(1.1); animation-timing-function:ease-in}
+  75%{transform:scale(0.9); animation-timing-function:ease-in-out}
+  100%{transform:scale(1); animation-timing-function:ease-in-out}
 }
 
-@-webkit-keyframes fade {
-  from{ -webkit-opacity: 0; }
-  to { -webkit-opacity: 1 ;}
+@keyframes fade {
+  from{ opacity: 0; }
+  to { opacity: 1 ;}
 }
 
 .splash{
-  -webkit-transform: scale(0);
-  -webkit-animation: splash 2s 0.7s forwards;
+  transform: scale(0);
+  animation: splash 2s 0.7s forwards;
 }
 
 .fade {
-  -webkit-opacity: 0;
-  -webkit-animation: fade 2s 3s forwards;
+  opacity: 0;
+  animation: fade 2s 3s forwards;
 }
 
 
