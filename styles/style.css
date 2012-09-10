@@ -220,30 +220,15 @@ a {
   color: #000000;
   font-weight: bold;
   padding: 8px 20px;
-  background: -moz-linear-gradient(
-  	top,
-  	#ffffff 0%,
-  	#c9ab34 50%,
-  	#57461c 50%,
-  	#755b1a 65%,
-  	#a38923);
-  background: -webkit-gradient(
+  background: gradient(
   	linear, left top, left bottom, 
   	from(#ffffff),
   	color-stop(0.50, #c9ab34),
   	color-stop(0.50, #57461c),
   	color-stop(0.65, #755b1a),
   	to(#a38923));
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
   border-radius: 10px;
   border: 1px solid #000000;
-  -moz-box-shadow:
-  	0px 1px 3px rgba(112,112,112,0.5),
-  	inset 0px 0px 5px rgba(161,142,016,0.6);
-  -webkit-box-shadow:
-  	0px 1px 3px rgba(112,112,112,0.5),
-  	inset 0px 0px 5px rgba(161,142,016,0.6);
   box-shadow:
   	0px 1px 3px rgba(112,112,112,0.5),
   	inset 0px 0px 5px rgba(161,142,016,0.6);
