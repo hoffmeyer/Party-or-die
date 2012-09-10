@@ -192,14 +192,6 @@ a {
 /* slideshow end */
 .small {font-size: 0.5em; clear: both;}
 
-/* fade in */
-
-.fade_in {
-  opacity: 0;
-}
-
-/* fade in end */
-
 /* the clint */
 
 .the_clint {
@@ -241,3 +233,30 @@ a {
 }
 
 /* rotation of images end */
+
+/* wanted poster splash */
+@-webkit-keyframes splash{
+  0%{-webkit-transform:scale(0.1)}
+  50%{-webkit-transform:scale(1.1); -webkit-animation-timing-function:ease-in}
+  75%{-webkit-transform:scale(0.9); -webkit-animation-timing-function:ease-in-out}
+  100%{-webkit-transform:scale(1); -webkit-animation-timing-function:ease-in-out}
+}
+
+@-webkit-keyframes fade {
+  from{ -webkit-opacity: 0; }
+  to { -webkit-opacity: 1 ;}
+}
+
+.splash{
+  -webkit-transform: scale(0);
+  -webkit-animation: splash 2s 0.7s forwards;
+}
+
+.fade {
+  -webkit-opacity: 0;
+  -webkit-animation: fade 2s 3s forwards;
+}
+
+
+
+/* wanted poster splash end */

@@ -4,7 +4,7 @@ var interval;
 $(document).ready(function(){
   load_clint();
   $("body").click(function(){bullethole_counter = 0; $(".bullethole").remove();});
-  fade_in_wanted_poster();
+//  fade_in_wanted_poster();
   init_info_boxes();
 });
 
