@@ -10,7 +10,9 @@ $(document).ready(function(){
 
 function drawBullethole(){
     var x = Math.floor(Math.random()*($(window).width()+1-91));
-    var y = Math.floor(Math.random()*($(window).height()+$("body").scrollTop()+1-91));
+    var y = Math.floor((Math.random()*($(window).height())+$(document).scrollTop()+1-91));
+    console.log($(document).scrollTop());
+    console.log("y: " + y);
     $("body").delay(750).append("<div class='bullethole' style='left: " + x + "px; top: " + y + "px;'><embed src='images/GunShot.mp3' hidden=true autostart=true loop=false></div>");
     bullethole_counter++;
 }
@@ -49,5 +51,5 @@ function load_clint(){
     var top = Math.random()*($(window).height()+1-128);
     $('.the_clint').css('top',top);
     $('.the_clint').animate({left:0},750, drawBullethole()).delay(500).animate({left:-128},750);
-  }, 15000);
+  }, 5000);
 }
