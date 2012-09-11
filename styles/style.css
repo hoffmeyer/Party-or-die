@@ -286,15 +286,17 @@ a {
 }
 
 .splash{
-  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
   animation: splash 2s 0.7s forwards;
 }
 
 .fade {
-  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -o-opacity: 0;
   animation: fade 2s 3s forwards;
 }
-
-
 
 /* wanted poster splash end */
